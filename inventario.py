@@ -10,12 +10,13 @@ print(Fore.MAGENTA)
 while True:
    nombre = input("ingrese el nombre del producto: ")
 
-   if nombre.isalpha():
+   if not nombre.replace(" ", "").isalpha():
+       print("Error: solo se permiten letras.")
+       
+   else:
        print("nombre válido.")
        break
-   else:
-       print("Error: solo se permiten letras.")
-
+   
 #Validar precio 
 while True:
     try:
