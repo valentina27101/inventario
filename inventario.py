@@ -6,7 +6,7 @@ print(Fore.MAGENTA+ "Bienvenido al inventario")
 print(Fore.MAGENTA + "----------------------------")
 print(Fore.MAGENTA)
 
-# Solicitar nombre del producto
+# Solicita nombre del producto
 while True:
    nombre = input("ingrese el nombre del producto: ")
 # Revisa que solo tenga letras
@@ -16,14 +16,14 @@ while True:
    else:
        print("Error: solo se permiten letras.")
 
-# Validar precio del producto 
+# Valida precio del producto 
 while True:
     try:
         precio_unitario = float(input("ingrese el precio del producto: "))
         break
     except ValueError:
         print("Error: debe ingresar un precio válido.")
-# Validar cantidad de productos
+# Valida cantidad de productos
 while True:
     try:
         cantidad = int(input("ingrese la cantidad de productos: "))
@@ -31,10 +31,10 @@ while True:
     except ValueError:
         print("Error: debe ingresar una cantidad válida.")
 
-# calcular costo total
+# calcula costo total
 costo_total = (precio_unitario * cantidad)
 
-# Mostrar resultados
+# Muestra resultados
 print(Fore.MAGENTA + "----------------------------")
 print(Fore.MAGENTA+ "factura")
 print(Fore.MAGENTA + "----------------------------")
