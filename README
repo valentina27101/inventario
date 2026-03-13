@@ -1,3 +1,42 @@
+# Programa De Inventario
+---
 
+## Descripción
+Este proyecto es un programa simple de inventario desarrollado en Python.
+El programa funciona en la consola y permite al usuario registrar un producto y calcular el costo total de la compra.
+
+El programa solicita al usuario el nombre del producto, el precio unitario y la cantidad.  
+El sistema valida la información ingresada antes de continuar.  
+El programa calcula el costo total multiplicando el precio unitario por la cantidad.  
+Finalmente, el sistema muestra la información como una pequeña factura en la pantalla.
+
+---
+
+## Cómo Funciona 
+1. El programa inicia y muestra un mensaje de bienvenida en la consola.
+2. El sistema solicita al usuario ingresar el nombre del producto.
+3. El programa verifica que el nombre solo contenga letras.
+4. El sistema solicita el precio unitario del producto.
+5. El programa valida que el precio ingresado sea un número válido.
+6. El sistema solicita la cantidad de productos.
+7. El programa calcula el costo total usando el precio unitario y la cantidad.
+8. Finalmente, el sistema muestra la información del producto y el costo total como una factura.
+   
+---
+## Requisitos
+
+- Python 3
+- Librería Colorama
+
+Puedes instalar Colorama con el siguiente comando:
+
+```bash
+pip install colorama
+```
+
+---
+## Estado
+
+> Este proyecto actualmente está en desarrollo y se siguen agregando pequeñas mejoras.
 
 
